@@ -1,0 +1,41 @@
+
+@import'../../index.scss'  ;
+.loginbtn{
+    background-image: linear-gradient(to right,$lightPink,$lightPurple);
+    border: none;
+}
+.leftSide{
+    @include boxShadow(-3px, 10px, 30px, rgba(0, 0, 0, 0.5));
+}
+ 
+    
+@media (max-width: 575.98px) { 
+    .leftSide{
+        width: 80%;
+        form{
+            width: 80%;
+        }
+    }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .leftSide{
+        width: 80%;
+       
+        form{
+            width: 90%;
+        }
+    }
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .leftSide{
+               width: 50%;
+                form{
+                    width: 50%;
+                }
+            }
+ }

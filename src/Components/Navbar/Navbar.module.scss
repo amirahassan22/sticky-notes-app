@@ -1,0 +1,8 @@
+@import'../../index.scss'  ;
+
+nav{
+    @include boxShadow(0px, 0px ,10px ,rgba(0,0,0,.7));
+    background-color: rgba(170, 201, 206,.6);
+    z-index: 999999;
+    
+}

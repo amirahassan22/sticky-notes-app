@@ -1,0 +1,30 @@
+
+
+$background:#eee8e0;
+$lightPink:#f3dbcf;
+$lightPurple : #e5c1cd;
+
+@mixin boxShadow($x,$y,$blur,$color) {
+  box-shadow: $x $y $blur $color;
+  -webkit-box-shadow: $x $y $blur $color;
+  -moz-box-shadow: $x $y $blur $color;
+  -o-box-shadow: $x $y $blur $color;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $background;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  text-decoration: none;
+}

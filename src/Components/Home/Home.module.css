@@ -1,0 +1,33 @@
+
+.bgColor{
+    background-image: linear-gradient(#a9c7c5,#e7d7c9);
+}
+.addbtn, .addbtn:hover{
+    /* background-color: #e7d7c9 ; */
+    /* background-image: linear-gradient(to right,#f3dbcf,#e5c1cd) */
+    background-image: linear-gradient(to right,#f3dbcf,#e5c1cd)
+}
+.stampNote{
+    top: 0px;
+    left: 50%;
+}
+.stampNote i {
+    color: #fff;
+    background-color: #eee8e0;
+    
+    /* top:0 */
+}
+.btnsList li{
+    padding: 5px 0;
+}
+.btnsList .edit:hover i{
+    color: #e5c1cd;
+    transform: rotate(-30deg);
+}
+.edit i, .delete i{
+    transition: all 500ms ease;
+}
+.delete:hover i{
+    color: rgb(241, 94, 94);
+    transform: rotate(-30deg);
+}

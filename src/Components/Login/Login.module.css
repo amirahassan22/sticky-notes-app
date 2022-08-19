@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee8e0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loginbtn {
+  background-image: linear-gradient(to right, #f3dbcf, #e5c1cd);
+  border: none;
+}
+
+.leftSide {
+  box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 575.98px) {
+  .leftSide {
+    width: 80%;
+  }
+  .leftSide form {
+    width: 80%;
+  }
+}
+@media (min-width: 576px) {
+  .leftSide {
+    width: 80%;
+  }
+  .leftSide form {
+    width: 90%;
+  }
+}
+@media (min-width: 768px) {
+  .leftSide {
+    width: 50%;
+  }
+  .leftSide form {
+    width: 50%;
+  }
+}/*# sourceMappingURL=Login.module.css.map */
